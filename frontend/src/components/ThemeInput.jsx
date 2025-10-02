@@ -9,10 +9,10 @@ import { useState } from 'react'
  * Props:
  * - onSubmit: function to handle the submitted theme value
  */
-function Themeinput({onSubmit}) {
+function ThemeInput({onSubmit}) {
     
     const [theme,setTheme] = useState("");
-    const [error,setErro] = useState("");
+    const [error,setError] = useState("");
     
     const handleSubmit = (e) => {
         e.preventDefault();
